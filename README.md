@@ -108,5 +108,5 @@ This study introduces a novel simulation framework based on the Discrete Elastic
 ### Citation
 If our work has helped your research, please cite the following paper.
 ```
-
+https://arxiv.org/abs/2502.00714
 ```
