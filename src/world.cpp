@@ -152,9 +152,8 @@ void world::updateBoundaryCondition()
 	{
 		for (int i = 0; i < 196/2; i++)
 		{
-			plate->v_bendingElement[i].unTwist = currentTime * 0.01;
-			plate->v_bendingElement[i].kappaBar(0) = currentTime * 0.01 * sin(6 * M_PI * i / 98);
-			plate->v_bendingElement[i].kappaBar(1) = currentTime * 0.01 * cos(6 * M_PI * i / 98);
+			plate->v_bendingElement[i].kappaBar(0) = currentTime * 0.01 * sin(3 * M_PI * i / 98);
+			plate->v_bendingElement[i].kappaBar(1) = currentTime * 0.01 * cos(3 * M_PI * i / 98);
 		}
 	}
 }
