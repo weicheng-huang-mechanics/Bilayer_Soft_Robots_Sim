@@ -1,4 +1,0 @@
-g++ -I /usr/local/include/eigen-3.3.7/ -I /opt/intel/oneapi/mkl/2025.0/include main.cpp world.cpp setInput.cpp timeStepper.cpp inertialForce.cpp externalGravityForce.cpp dampingForce.cpp elasticStretchingForce.cpp elasticBendingForce.cpp elasticTwistingForce.cpp elasticPlate.cpp elasticStretchingBound.cpp elasticBendingBound.cpp elasticTwistingBound.cpp elasticAngleBound.cpp -lGL -lglut -lGLU -L /opt/intel/oneapi/mkl/2025.0/lib -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -L /opt/intel/oneapi/compiler/2025.0/lib -liomp5 -llapack -lgfortran -fopenmp -lpthread -lm -Ofast -o simDER
-
-
-export LD_LIBRARY_PATH=/opt/intel/oneapi/mkl/2025.0/lib/intel64:/opt/intel/oneapi/compiler/2025.0/lib/:$LD_LIBRARY_PATH
